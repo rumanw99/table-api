@@ -1,0 +1,116 @@
+/* custom.css */
+@font-face {
+    font-family: 'Neutra Text';
+    src: local('Neutra Text'), url(/fonts/neutra-text.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: local('Neutra Text'), url(/fonts/neutra-text.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titlePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.arrow{
+	
+cursor: pointer;
+}
+.number{
+	cursor: pointer;
+}
+
+.number.active{
+	margin-bottom: 20px;
+	transition: top 0.3s ease;
+}
+
+.search-and-filters{
+	display: flex;
+	align-items: center;
+	gap:30px;
+	margin-bottom: 20px;
+	
+}
+
+select{
+  cursor: pointer;
+}
+.search-input div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selectOption select {
+	border: none;
+	/* Optionally, you can remove other styles like outline and box-shadow to ensure there are no borders or outlines */
+	outline: none;
+	box-shadow: none;
+  cursor: pointer;
+  }
+
+  .line{
+	width: 1px;
+	height: 30px;
+	background: aqua;
+  }
+
+  .search{
+	cursor: pointer;
+  }
+
+
+  /* Add styles to the table */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+  
+  /* Style table headers */
+  table th {
+	background-color: #c0e3e5;
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #ddd;
+	color: #322625;
+	font-family: 'Neutra Text', sans-serif;
+  }
+  
+  /* Style table data cells */
+  table td {
+	padding: 8px;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-family: 'Neutra Text', sans-serif;
+  }
+  
+  /* Add a hover effect to table rows */
+  table tr:hover {
+	background-color: #e6e6e6;
+  }
+  
+  /* Style alternating rows differently */
+  table tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  p , span , h1 , label , option , select{
+	font-family: 'Neutra Text', sans-serif;
+  }
